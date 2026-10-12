@@ -49,9 +49,9 @@ const Hero = () => {
   ];
 
   const stats = [
-    { value: '5+', label: 'Years Experience' },
-    { value: '10+', label: 'Projects Delivered' },
-    { value: '8+', label: 'Technologies' },
+    { value: '1+', label: 'Years Experience' },
+    { value: '7+', label: 'Projects Delivered' },
+    { value: '30+', label: 'Technologies' },
     { value: '100%', label: 'Passion for Cloud' },
   ];
 
