@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
-import brandLogo from '../../assets/Gemini_Generated_Image_qh18hfqh18hfqh18.jpg';
+import brandLogo from '../../assets/adel-bettaieb.jpg';
 
 const Navbar = () => {
   const navItems = [
@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src={brandLogo}
             alt="Adel Bettaieb"
-            className="h-11 w-11 object-contain rounded-xl border border-accent-cyan/30 shadow-[0_0_15px_rgba(0,242,254,0.25)] hover:scale-105 transition-transform duration-300 hover:drop-shadow-[0_0_10px_rgba(0,242,254,0.5)]"
+            className="h-11 w-11 object-cover object-top rounded-full border border-accent-cyan/30 shadow-[0_0_15px_rgba(0,242,254,0.25)] hover:scale-105 transition-transform duration-300 hover:drop-shadow-[0_0_10px_rgba(0,242,254,0.5)]"
           />
           <div className="flex flex-col">
             <span className="text-white font-bold text-sm tracking-wide group-hover:text-accent-cyan transition-colors">

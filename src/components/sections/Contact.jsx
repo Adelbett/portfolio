@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import brandLogo from '../../assets/Gemini_Generated_Image_qh18hfqh18hfqh18.jpg';
+import brandLogo from '../../assets/adel-bettaieb.jpg';
 import { 
   FiTerminal, 
   FiSend, 
@@ -614,7 +614,7 @@ const Contact = () => {
             <img
               src={brandLogo}
               alt="Adel Bettaieb"
-              className="w-8 h-8 rounded-lg object-contain border border-accent-cyan/40 shadow-glow-cyan hover:scale-105 transition-transform duration-300"
+              className="w-8 h-8 rounded-full object-cover object-top border border-accent-cyan/40 shadow-glow-cyan hover:scale-105 transition-transform duration-300"
             />
             <span>
               Designed &amp; Engineered by <strong className="text-slate-300">Adel Bettaieb</strong>

@@ -99,7 +99,7 @@ const FreelanceCTA = () => {
                   {/* Perfectly Circular Avatar Image */}
                   <div className="relative w-full h-full rounded-full overflow-hidden bg-space-950">
                     <img
-                      src="/assets/avatar.png"
+                      src="/assets/adel-bettaieb.jpg"
                       alt="Adel Bettaieb - Cloud & DevOps Engineer"
                       className="w-full h-full object-cover object-top filter brightness-105 contrast-105 group-hover:scale-105 transition-transform duration-700"
                     />
