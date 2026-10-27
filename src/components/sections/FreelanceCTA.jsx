@@ -12,6 +12,7 @@ import {
   FiCode
 } from 'react-icons/fi';
 import { FaWhatsapp, FaLinkedin } from 'react-icons/fa';
+import brandLogo from '../../assets/adel-bettaieb.jpg';
 
 const servicesList = [
   {
@@ -99,7 +100,7 @@ const FreelanceCTA = () => {
                   {/* Perfectly Circular Avatar Image */}
                   <div className="relative w-full h-full rounded-full overflow-hidden bg-space-950">
                     <img
-                      src="/assets/adel-bettaieb.jpg"
+                      src={brandLogo}
                       alt="Adel Bettaieb - Cloud & DevOps Engineer"
                       className="w-full h-full object-cover object-top filter brightness-105 contrast-105 group-hover:scale-105 transition-transform duration-700"
                     />

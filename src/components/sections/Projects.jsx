@@ -22,6 +22,8 @@ import {
   FiMaximize2
 } from 'react-icons/fi';
 
+const BASE = import.meta.env.BASE_URL;
+
 // ==========================================
 // TASK 1: PROJECT DATA STRUCTURE
 // Enriched with real information from CV
@@ -86,7 +88,7 @@ const projectsData = [
     badge: 'Commercial Enterprise SaaS',
     period: '2026 (Projet Freelance)',
     location: 'Production VPS',
-    image: '/assets/atlasi.png', // Real image loaded from public/assets/atlasi.png
+    image: `${BASE}assets/atlasi.png`, // Real image loaded from public/assets/atlasi.png
     description: "Conception et hébergement complet d'une plateforme web de gestion commerciale (B2B).",
     highlights: [
       'Assistant de configuration 3D/visuel avec estimation tarifaire interactive en temps réel.',

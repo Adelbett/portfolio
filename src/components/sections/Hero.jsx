@@ -239,7 +239,7 @@ const Hero = () => {
 
             {/* The Master 3D Cyber Island Artwork */}
             <img
-              src="/assets/hero-assets/hero-cyber-island.png"
+              src={`${import.meta.env.BASE_URL}assets/hero-assets/hero-cyber-island.png`}
               alt="Adel Bettaieb - Cloud & DevOps Cyber Infrastructure 3D Platform"
               className="w-full h-auto object-contain filter drop-shadow-[0_20px_50px_rgba(0,242,254,0.25)] relative z-10 transition-transform duration-500 hover:scale-[1.02]"
               draggable={false}

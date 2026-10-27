@@ -1,17 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+const BASE = import.meta.env.BASE_URL;
+
 const techItems = [
-  { name: 'React', icon: '/assets/technology-icons/react.svg', glow: 'hover:shadow-[0_0_15px_rgba(97,218,251,0.5)]' },
-  { name: 'Spring Boot', icon: '/assets/technology-icons/springboot.svg', glow: 'hover:shadow-[0_0_15px_rgba(109,179,63,0.5)]' },
-  { name: 'Kubernetes', icon: '/assets/technology-icons/kubernetes.svg', glow: 'hover:shadow-[0_0_15px_rgba(50,108,229,0.5)]' },
-  { name: 'Kafka', icon: '/assets/technology-icons/apachekafka.svg', glow: 'hover:shadow-[0_0_15px_rgba(255,255,255,0.4)]' },
-  { name: 'Docker', icon: '/assets/technology-icons/docker.svg', glow: 'hover:shadow-[0_0_15px_rgba(36,150,237,0.5)]' },
-  { name: 'Jenkins', icon: '/assets/technology-icons/jenkins.svg', glow: 'hover:shadow-[0_0_15px_rgba(211,56,51,0.5)]' },
-  { name: 'Prometheus', icon: '/assets/technology-icons/prometheus.svg', glow: 'hover:shadow-[0_0_15px_rgba(230,82,44,0.5)]' },
-  { name: 'Grafana', icon: '/assets/technology-icons/grafana.svg', glow: 'hover:shadow-[0_0_15px_rgba(244,104,36,0.5)]' },
-  { name: 'Keycloak', icon: '/assets/technology-icons/keycloak.svg', glow: 'hover:shadow-[0_0_15px_rgba(0,184,212,0.5)]' },
-  { name: 'Terraform', icon: '/assets/technology-icons/terraform.svg', glow: 'hover:shadow-[0_0_15px_rgba(132,79,186,0.5)]' },
+  { name: 'React', icon: `${BASE}assets/technology-icons/react.svg`, glow: 'hover:shadow-[0_0_15px_rgba(97,218,251,0.5)]' },
+  { name: 'Spring Boot', icon: `${BASE}assets/technology-icons/springboot.svg`, glow: 'hover:shadow-[0_0_15px_rgba(109,179,63,0.5)]' },
+  { name: 'Kubernetes', icon: `${BASE}assets/technology-icons/kubernetes.svg`, glow: 'hover:shadow-[0_0_15px_rgba(50,108,229,0.5)]' },
+  { name: 'Kafka', icon: `${BASE}assets/technology-icons/apachekafka.svg`, glow: 'hover:shadow-[0_0_15px_rgba(255,255,255,0.4)]' },
+  { name: 'Docker', icon: `${BASE}assets/technology-icons/docker.svg`, glow: 'hover:shadow-[0_0_15px_rgba(36,150,237,0.5)]' },
+  { name: 'Jenkins', icon: `${BASE}assets/technology-icons/jenkins.svg`, glow: 'hover:shadow-[0_0_15px_rgba(211,56,51,0.5)]' },
+  { name: 'Prometheus', icon: `${BASE}assets/technology-icons/prometheus.svg`, glow: 'hover:shadow-[0_0_15px_rgba(230,82,44,0.5)]' },
+  { name: 'Grafana', icon: `${BASE}assets/technology-icons/grafana.svg`, glow: 'hover:shadow-[0_0_15px_rgba(244,104,36,0.5)]' },
+  { name: 'Keycloak', icon: `${BASE}assets/technology-icons/keycloak.svg`, glow: 'hover:shadow-[0_0_15px_rgba(0,184,212,0.5)]' },
+  { name: 'Terraform', icon: `${BASE}assets/technology-icons/terraform.svg`, glow: 'hover:shadow-[0_0_15px_rgba(132,79,186,0.5)]' },
 ];
 
 const TechDock = () => {

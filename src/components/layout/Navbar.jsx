@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Action: Download CV */}
         <div className="flex items-center">
           <a
-            href="/assets/cv-adel-bettaieb.pdf"
+            href={`${import.meta.env.BASE_URL}assets/cv-adel-bettaieb.pdf`}
             download="Adel_Bettaieb_CV.pdf"
             className="flex items-center gap-2 px-5 py-2.5 rounded-full glass-card text-white text-xs font-semibold hover:border-accent-cyan/60 hover:text-accent-cyan hover:shadow-[0_0_20px_rgba(0,242,254,0.3)] transition-all duration-300"
           >

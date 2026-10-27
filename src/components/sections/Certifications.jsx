@@ -17,6 +17,8 @@ import {
 // ==========================================
 // TASK 1: DATA STRUCTURE (4 CERTIFICATIONS)
 // ==========================================
+const BASE = import.meta.env.BASE_URL;
+
 const certificationsData = [
   {
     id: 'aws-cloud-ops',
@@ -24,8 +26,8 @@ const certificationsData = [
     issuer: 'Amazon Web Services (AWS)',
     date: '2025',
     credentialId: 'AWS-ACAD-892401',
-    image: '/assets/certificates/aws-cloud-operations.webp',
-    pdfUrl: '/assets/certificates/aws-cloud-operations.pdf',
+    image: `${BASE}assets/certificates/aws-cloud-operations.webp`,
+    pdfUrl: `${BASE}assets/certificates/aws-cloud-operations.pdf`,
     skills: ['AWS Cloud Operations', 'EC2 & VPC Architecture', 'CloudWatch Monitoring', 'IAM & Cloud Security'],
     status: 'ACTIVE & VERIFIED',
     type: 'Cloud Computing',
@@ -37,8 +39,8 @@ const certificationsData = [
     issuer: 'Cisco Networking Academy',
     date: '2024',
     credentialId: 'CSCO-NET-773190',
-    image: '/assets/certificates/cisco-network-security.webp',
-    pdfUrl: '/assets/certificates/cisco-network-security.pdf',
+    image: `${BASE}assets/certificates/cisco-network-security.webp`,
+    pdfUrl: `${BASE}assets/certificates/cisco-network-security.pdf`,
     skills: ['Enterprise Networking', 'VLANs & Inter-VLAN Routing', 'DHCP/DNS & IPv6', 'Network Security'],
     status: 'ACTIVE & VERIFIED',
     type: 'Infrastructure & Networks',
@@ -50,8 +52,8 @@ const certificationsData = [
     issuer: 'The Hashgraph Association',
     date: '2025',
     credentialId: 'HBAR-DEV-554218',
-    image: '/assets/certificates/hashgraph-developer-course.webp',
-    pdfUrl: '/assets/certificates/hashgraph-developer-course.pdf',
+    image: `${BASE}assets/certificates/hashgraph-developer-course.webp`,
+    pdfUrl: `${BASE}assets/certificates/hashgraph-developer-course.pdf`,
     skills: ['Hedera Hashgraph DLT', 'Smart Contracts', 'Consensus Service', 'Decentralized Architecture'],
     status: 'ACTIVE & VERIFIED',
     type: 'Distributed Systems',

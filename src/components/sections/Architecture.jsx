@@ -67,7 +67,7 @@ const Architecture = () => {
         >
           <video
             ref={videoRef}
-            src="/assets/projects/platformserverless/PlatformServerless_System_Architecture.mp4"
+            src={`${import.meta.env.BASE_URL}assets/projects/platformserverless/PlatformServerless_System_Architecture.mp4`}
             autoPlay
             loop
             muted
